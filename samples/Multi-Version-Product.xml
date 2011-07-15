@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project percentComplete="0%">
+		<name>My Multi-Version Product</name>
+		<description>This project attempts to demonstrate a method of using FDDManager to support multi-version products. There are two basic assumptions made in building this Feature Breakdown Structure: 1) Each product version has its own Features List in which &apos;delta&apos; features are recorded over the Base version (this assumes there is a common base set of Features). 2) The inclusion or exclusion of features that define products is a Release and Issue concern. In this example I show this being captured in the installer script Feature.</description>
+	<featureList>
+		<name>Base Version</name>
+		<description>The Base Version holds the common set of Features that May be used across product versions.</description>
+		<majorFeatureSet>
+		<name>Base Math</name>
+			<featureSet>
+		<name>Calculator</name>
+		<targetRelease>1.0</targetRelease>
+				<feature state="0">
+		<name>Calculate the Sum of two Numbers</name>
+				</feature>
+				<feature state="0">
+		<name>Calculate the Difference of two Numbers</name>
+				</feature>
+				<feature state="0">
+		<name>Calculate the Product of two Number</name>
+				</feature>
+				<feature state="0">
+		<name>Calculate the Division of two Number</name>
+				</feature>
+				<feature state="0">
+		<name>Store the Result of a Calculation</name>
+		<description>Basic storage of the calculated result i.e. M+ type functionality.</description>
+				</feature>
+			</featureSet>
+		</majorFeatureSet>
+		<majorFeatureSet>
+		<name>Base Installer</name>
+			<featureSet>
+		<name>Scripts</name>
+		<targetRelease>1.0</targetRelease>
+				<feature state="0">
+		<name>Create a Base Installer Script for the Release</name>
+		<description>The base installer script will build the installer for the base product.</description>
+				</feature>
+			</featureSet>
+		</majorFeatureSet>
+	</featureList>
+	<featureList>
+		<name>Professional Version</name>
+		<description>The Professional Version holds the additional Features over the common set of Features i.e. the delta Features.</description>
+		<majorFeatureSet>
+		<name>Pro Math</name>
+			<featureSet>
+		<name>Calculator</name>
+		<targetRelease>1.0</targetRelease>
+		<testEstimateUnit>hours</testEstimateUnit>
+				<feature state="0">
+		<name>Calculate the Percentage of a Number</name>
+				</feature>
+				<feature state="0">
+		<name>Calculate the Inverse of a Number</name>
+				</feature>
+				<feature state="0">
+		<name>Store the Result of a Calculation</name>
+		<description>Advanced storage of calculated results i.e. assign the result to a letter variable. This Feature is intended to replace the Base version of this Feature.</description>
+				</feature>
+			</featureSet>
+		</majorFeatureSet>
+		<majorFeatureSet>
+		<name>Pro Installer</name>
+			<featureSet>
+		<name>Scripts</name>
+		<targetRelease>1.0</targetRelease>
+				<feature state="0">
+		<name>Create a Professional Installer Script for the Release</name>
+		<description>The professional installer script will build the installer for the professional version of the product. It will assemble the product from the base and pro Features.</description>
+				</feature>
+			</featureSet>
+		</majorFeatureSet>
+	</featureList>
+	<featureList>
+		<name>Enterprise Version</name>
+		<description>The Enterprise Version holds the additional Features over the professional and common sets of Features i.e. the delta Features.</description>
+		<majorFeatureSet>
+		<name>Ent Math</name>
+			<featureSet>
+		<name>Calculator</name>
+		<targetRelease>1.0</targetRelease>
+				<feature state="0">
+		<name>Calculate the Sine of a Number</name>
+				</feature>
+				<feature state="0">
+		<name>Calculate the Cosine of a Number</name>
+				</feature>
+				<feature state="0">
+		<name>Calculate the Tangent of a Number</name>
+				</feature>
+			</featureSet>
+		</majorFeatureSet>
+		<majorFeatureSet>
+		<name>Enterprise Installer</name>
+			<featureSet>
+		<name>Scripts</name>
+		<targetRelease>1.0</targetRelease>
+				<feature state="0">
+		<name>Create an Enterprise Installer Script for the Release</name>
+		<description>The enterprise installer script will build the installer for the enterprise version of the product. It will assemble the product from the base, pro and enterprise Features.</description>
+				</feature>
+			</featureSet>
+		</majorFeatureSet>
+	</featureList>
+</project>

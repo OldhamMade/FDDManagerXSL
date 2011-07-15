@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project percentComplete="40.6%">
+		<name>Pet Store</name>
+		<createdDate>2005-06-03</createdDate>
+	<featureList>
+		<createDate>2005-06-03</createDate>
+		<name>Online Store - FBS</name>
+		<majorFeatureSet>
+		<createDate>2005-06-03</createDate>
+		<name>Sales Application</name>
+			<featureSet>
+		<createDate>2005-06-03</createDate>
+		<name>View Product Categories</name>
+		<description>The user should be able to select and view any of the available product categories.</description>
+		<priority>1</priority>
+		<techWriterEstimate>5.0</techWriterEstimate>
+		<testEstimate>7.0</testEstimate>
+				<feature state="1">
+		<createDate>2005-06-03</createDate>
+		<name>View Mamal Category</name>
+		<priority>1</priority>
+		<complexity>H</complexity>
+		<devEstimate>24.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Alice Valley</assignedTo>
+		<domainWalkthroughPlanned>2005-06-05</domainWalkthroughPlanned>
+		<domainWalkthroughActual>2005-06-05</domainWalkthroughActual>
+		<designPlanned>2005-06-05</designPlanned>
+		<designActual>2005-06-06</designActual>
+		<designInspectPlanned>2005-06-06</designInspectPlanned>
+		<designInspectActual>2005-06-06</designInspectActual>
+		<codePlanned>2005-06-07</codePlanned>
+		<codeActual>2005-06-07</codeActual>
+		<codeInspectPlanned>2005-06-09</codeInspectPlanned>
+		<promoteToBuildPlanned>2005-06-10</promoteToBuildPlanned>
+				<note>
+		<title>Category Infrastructure</title>
+		<description>User this category as the template to build the infrastructure to support all other categories.</description>
+		<taskEstimate>0.0</taskEstimate>
+		<taskToGo>0.0</taskToGo>
+				</note>
+				</feature>
+				<feature state="1">
+		<createDate>2005-06-03</createDate>
+		<name>View Aquatic Category</name>
+		<priority>1</priority>
+		<complexity>M</complexity>
+		<devEstimate>24.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Alice Valley</assignedTo>
+		<domainWalkthroughPlanned>2005-06-05</domainWalkthroughPlanned>
+		<domainWalkthroughActual>2005-06-05</domainWalkthroughActual>
+		<designPlanned>2005-06-05</designPlanned>
+		<designActual>2005-06-05</designActual>
+		<designInspectPlanned>2005-06-06</designInspectPlanned>
+		<codePlanned>2005-06-07</codePlanned>
+		<codeInspectPlanned>2005-06-09</codeInspectPlanned>
+		<promoteToBuildPlanned>2005-06-10</promoteToBuildPlanned>
+				</feature>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>View Insect Category</name>
+		<priority>1</priority>
+		<complexity>M</complexity>
+		<devEstimate>24.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Alice Valley</assignedTo>
+		<domainWalkthroughPlanned>2005-06-05</domainWalkthroughPlanned>
+		<designPlanned>2005-06-05</designPlanned>
+		<designInspectPlanned>2005-06-06</designInspectPlanned>
+		<codePlanned>2005-06-07</codePlanned>
+		<codeInspectPlanned>2005-06-09</codeInspectPlanned>
+		<promoteToBuildPlanned>2005-06-10</promoteToBuildPlanned>
+				</feature>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>View Hardware Category</name>
+		<priority>1</priority>
+		<complexity>M</complexity>
+		<devEstimate>24.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Alice Valley</assignedTo>
+		<domainWalkthroughPlanned>2005-06-05</domainWalkthroughPlanned>
+		<designPlanned>2005-06-05</designPlanned>
+		<designInspectPlanned>2005-06-06</designInspectPlanned>
+		<codePlanned>2005-06-07</codePlanned>
+		<codeInspectPlanned>2005-06-09</codeInspectPlanned>
+		<promoteToBuildPlanned>2005-06-10</promoteToBuildPlanned>
+				</feature>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>View Food Category</name>
+		<priority>1</priority>
+		<complexity>M</complexity>
+		<devEstimate>24.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Alice Valley</assignedTo>
+		<domainWalkthroughPlanned>2005-06-05</domainWalkthroughPlanned>
+		<designPlanned>2005-06-05</designPlanned>
+		<designInspectPlanned>2005-06-06</designInspectPlanned>
+		<codePlanned>2005-06-07</codePlanned>
+		<codeInspectPlanned>2005-06-09</codeInspectPlanned>
+		<promoteToBuildPlanned>2005-06-10</promoteToBuildPlanned>
+				</feature>
+		<chiefProgrammer>Sally Joe</chiefProgrammer>
+		<plannedCompletionDate>2005-06-10</plannedCompletionDate>
+		<plannedTestDate>2005-06-14</plannedTestDate>
+		<assignedTester>Alice Valley</assignedTester>
+		<assignedTechwriter>Tanya Corinthian</assignedTechwriter>
+			</featureSet>
+			<featureSet>
+		<createDate>2005-06-03</createDate>
+		<name>Informational Pages</name>
+		<description>Informational web application pages.</description>
+		<priority>1</priority>
+		<techWriterEstimate>24.0</techWriterEstimate>
+		<testEstimate>16.0</testEstimate>
+		<testEstimateUnit>hours</testEstimateUnit>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>Main Page</name>
+		<description>This is the main page that loads when the user first starts the application. It includes the main navigation elements.</description>
+		<priority>1</priority>
+		<complexity>H</complexity>
+		<devEstimate>24.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Alice Valley</assignedTo>
+		<domainWalkthroughPlanned>2005-06-03</domainWalkthroughPlanned>
+		<designPlanned>2005-06-03</designPlanned>
+		<designInspectPlanned>2005-06-06</designInspectPlanned>
+		<codePlanned>2005-06-10</codePlanned>
+		<codeInspectPlanned>2005-06-16</codeInspectPlanned>
+		<promoteToBuildPlanned>2005-06-17</promoteToBuildPlanned>
+				</feature>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>F.A.Q. Page</name>
+		<devEstimate>24.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Alice Valley</assignedTo>
+		<domainWalkthroughPlanned>2005-06-03</domainWalkthroughPlanned>
+		<designPlanned>2005-06-03</designPlanned>
+		<designInspectPlanned>2005-06-06</designInspectPlanned>
+		<codePlanned>2005-06-10</codePlanned>
+		<codeInspectPlanned>2005-06-16</codeInspectPlanned>
+		<promoteToBuildPlanned>2005-06-17</promoteToBuildPlanned>
+				</feature>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>Contact Page</name>
+		<devEstimate>24.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Alice Valley</assignedTo>
+		<domainWalkthroughPlanned>2005-06-03</domainWalkthroughPlanned>
+		<designPlanned>2005-06-03</designPlanned>
+		<designInspectPlanned>2005-06-06</designInspectPlanned>
+		<codePlanned>2005-06-10</codePlanned>
+		<codeInspectPlanned>2005-06-16</codeInspectPlanned>
+		<promoteToBuildPlanned>2005-06-17</promoteToBuildPlanned>
+				</feature>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>About Us Page</name>
+		<devEstimate>24.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Alice Valley</assignedTo>
+		<domainWalkthroughPlanned>2005-06-03</domainWalkthroughPlanned>
+		<designPlanned>2005-06-03</designPlanned>
+		<designInspectPlanned>2005-06-06</designInspectPlanned>
+		<codePlanned>2005-06-10</codePlanned>
+		<codeInspectPlanned>2005-06-16</codeInspectPlanned>
+		<promoteToBuildPlanned>2005-06-17</promoteToBuildPlanned>
+				</feature>
+		<chiefProgrammer>Sally Joe</chiefProgrammer>
+		<plannedCompletionDate>2005-06-17</plannedCompletionDate>
+		<plannedTestDate>2005-06-24</plannedTestDate>
+		<assignedTester>Alice Valley</assignedTester>
+		<assignedTechwriter>Tanya Corinthian</assignedTechwriter>
+			</featureSet>
+			<featureSet>
+		<createDate>2005-06-03</createDate>
+		<name>Product</name>
+		<description>When a product is selected within the application, all variants of the product are
+displayed. Typically the product variant is either male or female.</description>
+		<priority>1</priority>
+		<techWriterEstimate>5.0</techWriterEstimate>
+		<testEstimate>8.0</testEstimate>
+		<testEstimateUnit>hours</testEstimateUnit>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>Display Product Details</name>
+		<description>Each product variant (represented as items) will have a detailed view that
+displays the product description, a product image, price, and the quantity in stock.</description>
+		<priority>2</priority>
+		<complexity>L</complexity>
+		<devEstimate>8.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Sally Joe</assignedTo>
+				</feature>
+		<chiefProgrammer>Sally Joe</chiefProgrammer>
+		<plannedCompletionDate>2005-06-30</plannedCompletionDate>
+		<plannedTestDate>2005-07-06</plannedTestDate>
+		<assignedTester>Alice Valley</assignedTester>
+		<assignedTechwriter>Tanya Corinthian</assignedTechwriter>
+			</featureSet>
+			<featureSet>
+		<createDate>2005-06-03</createDate>
+		<name>Shopping Cart</name>
+		<description>Allows the user to manipulate the shopping cart (add, remove, and update line
+items).</description>
+		<priority>1</priority>
+		<techWriterEstimate>5.0</techWriterEstimate>
+		<testEstimate>16.0</testEstimate>
+		<testEstimateUnit>hours</testEstimateUnit>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>Checkout</name>
+		<description>The checkout page displays the shopping cart in a read-only view.</description>
+		<priority>1</priority>
+		<complexity>H</complexity>
+		<devEstimate>32.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Sally Joe</assignedTo>
+				</feature>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>Login Redirect</name>
+		<description>When the user selects ?Continue?? on the checkout page, they are redirected to
+the login page if they have not signed in yet.</description>
+		<priority>2</priority>
+		<complexity>L</complexity>
+		<devEstimate>4.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Alice Valley</assignedTo>
+				</feature>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>Verify Sign in</name>
+		<description>After being authenticated onto the site, the user is then redirected to the credit
+card and billing address form.</description>
+		<priority>1</priority>
+		<complexity>L</complexity>
+		<devEstimate>8.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Sally Joe</assignedTo>
+				</feature>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>Confirm Order</name>
+		<description>The billing and the shipping addresses are displayed.</description>
+		<priority>1</priority>
+		<complexity>M</complexity>
+		<devEstimate>8.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Sally Joe</assignedTo>
+				</feature>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>Commit Order</name>
+		<description>This is the final step in the order-processing pipeline. The order is now
+committed to the database at this point.</description>
+		<priority>1</priority>
+		<complexity>H</complexity>
+		<devEstimate>8.0</devEstimate>
+		<devEstimateUnit>hours</devEstimateUnit>
+		<assignedTo>Alice Valley</assignedTo>
+				</feature>
+		<chiefProgrammer>Sally Joe</chiefProgrammer>
+		<plannedCompletionDate>2005-07-12</plannedCompletionDate>
+		<plannedTestDate>2005-07-20</plannedTestDate>
+		<assignedTester>Alice Valley</assignedTester>
+		<assignedTechwriter>Tanya Corinthian</assignedTechwriter>
+			</featureSet>
+		</majorFeatureSet>
+		<majorFeatureSet>
+		<createDate>2005-06-03</createDate>
+		<name>Stock Management</name>
+			<featureSet>
+		<createDate>2005-06-03</createDate>
+		<name>Assess Stock</name>
+				<feature state="2">
+		<createDate>2005-06-03</createDate>
+		<name>Out of Stock Report</name>
+		<assignedTo>Sally Joe</assignedTo>
+		<promoteToBuildActual>2005-06-03</promoteToBuildActual>
+				</feature>
+				<feature state="2">
+		<createDate>2005-06-03</createDate>
+		<name>Back Order Report</name>
+		<assignedTo>Sally Joe</assignedTo>
+		<promoteToBuildActual>2005-06-03</promoteToBuildActual>
+				</feature>
+		<chiefProgrammer>Sally Joe</chiefProgrammer>
+		<plannedCompletionDate>2005-08-01</plannedCompletionDate>
+			</featureSet>
+			<featureSet>
+		<createDate>2005-06-03</createDate>
+		<name>Stock Ordering</name>
+				<feature state="2">
+		<createDate>2005-06-03</createDate>
+		<name>View Supplies</name>
+		<assignedTo>Sally Joe</assignedTo>
+		<promoteToBuildActual>2005-06-03</promoteToBuildActual>
+				</feature>
+				<feature state="2">
+		<createDate>2005-06-03</createDate>
+		<name>Specify Order</name>
+		<assignedTo>Sally Joe</assignedTo>
+		<promoteToBuildActual>2005-06-03</promoteToBuildActual>
+				</feature>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>Confirm Order</name>
+		<assignedTo>Sally Joe</assignedTo>
+		<promoteToBuildPlanned>2005-06-03</promoteToBuildPlanned>
+				</feature>
+		<chiefProgrammer>Sally Joe</chiefProgrammer>
+		<plannedCompletionDate>2005-08-15</plannedCompletionDate>
+			</featureSet>
+		</majorFeatureSet>
+		<majorFeatureSet>
+		<createDate>2005-06-03</createDate>
+		<name>Financial Management</name>
+			<featureSet>
+		<createDate>2005-06-03</createDate>
+		<name>Supplier Management</name>
+				<feature state="2">
+		<createDate>2005-06-03</createDate>
+		<name>Supplier Maintenance</name>
+		<promoteToBuildActual>2005-06-03</promoteToBuildActual>
+				</feature>
+				<feature state="2">
+		<createDate>2005-06-03</createDate>
+		<name>Supplier Checks</name>
+		<promoteToBuildActual>2005-06-03</promoteToBuildActual>
+				</feature>
+				<feature state="2">
+		<createDate>2005-06-03</createDate>
+		<name>Supplier Credits</name>
+		<promoteToBuildActual>2005-06-03</promoteToBuildActual>
+				</feature>
+		<chiefProgrammer>Sally Joe</chiefProgrammer>
+			</featureSet>
+			<featureSet>
+		<createDate>2005-06-03</createDate>
+		<name>Bank Management</name>
+				<feature state="1">
+		<createDate>2005-06-03</createDate>
+		<name>Bank Account Maintenance</name>
+		<codeActual>2005-06-03</codeActual>
+				</feature>
+				<feature state="1">
+		<createDate>2005-06-03</createDate>
+		<name>Bank Reconciliation</name>
+		<codeActual>2005-06-03</codeActual>
+				</feature>
+				<feature state="1">
+		<createDate>2005-06-03</createDate>
+		<name>Bank Reporting</name>
+		<codeActual>2005-06-03</codeActual>
+				</feature>
+		<chiefProgrammer>Sally Joe</chiefProgrammer>
+			</featureSet>
+			<featureSet>
+		<createDate>2005-06-03</createDate>
+		<name>Sales</name>
+				<feature state="0">
+		<createDate>2005-06-03</createDate>
+		<name>Cost of Sales Reporting</name>
+				</feature>
+		<chiefProgrammer>Sally Joe</chiefProgrammer>
+			</featureSet>
+		</majorFeatureSet>
+	</featureList>
+</project>
